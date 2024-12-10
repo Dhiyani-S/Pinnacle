@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+header {
+    background-color:black;
+    color:greenyellow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:greenyellow;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/food.jpg') no-repeat center center/cover;
+    color: rgb(225, 233, 12) (90, 75, 75);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1,h2 {
+    font-size: 3em;
+    color:greenyellow;
+}
+.hero h3{
+    color:yellow
+}
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-items {
+    background: url('images/menub.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+}
+
+.menu-item ul {
+    list-style-type: none;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+form button {
+    
+    background-color: black;
+    color: white;
+    border: 4;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color:gray ;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+.event {
+    
+
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    font-size: 1.8em;
+    color:yellow;
+}
+ .section{
+    color:white;
+    
+ }
