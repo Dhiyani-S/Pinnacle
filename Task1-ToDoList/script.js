@@ -96,7 +96,6 @@ const deleteLocalTodos = (todo) => {
     let todoIndex = todos.indexOf(todoText);
     todos.splice(todoIndex, 1);
     localStorage.setItem("todos", JSON.stringify(todos));
-    // Array functions : slice / splice
     console.log(todoIndex);
 }
 const editLocalTodos = (todo) => {
