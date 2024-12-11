@@ -1,21 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
     background-color: rgb(232, 238, 238);
     background: url('todo.jpg') no-repeat center center/cover;
     padding-bottom:20%;
-
 }
-
-
 .container{
     display: flex;
     flex-direction: column;
@@ -23,14 +17,12 @@ body{
     align-items: center;
     margin-top: 20px;
 }
-
 .input-container{
     width: 100%;
     max-width: 500px;
     text-align: center;
     padding: 20px;
 }
-
 .input-container input{
     border: none;
     outline: none;
@@ -39,11 +31,9 @@ body{
     border-radius: 4px;
     font-size: 16px;
 }
-
 .input-container input[type="text"]{
     width: 70%;
 }
-
 .input-container input[type="button"]{
     background-color: #8f0886;
     color:#fffdff ;
@@ -52,11 +42,9 @@ body{
     cursor: pointer;
     padding: 12px 24px;
 }
-
 .input-container input[type="button"]:hover{
     background-color: #8f0886;
 }
-
 ul{
     width: 70%;
     max-width: 450px;
@@ -65,7 +53,6 @@ ul{
     flex-direction: column;
     align-items: center; */
 }
-
 ul li{
     list-style-type: none;
     cursor: pointer;
@@ -79,11 +66,9 @@ ul li{
     justify-content: space-between;
     transition: background-color 0.5s;
 }
-
 ul li:hover{
     background-color: #7f9bef;
 }
-
 ul li p{
     flex-grow: 1;
     padding: 2px;
@@ -97,11 +82,9 @@ ul li p{
     cursor: pointer;
     padding: 8px;
 }
-
 .deleteBtn{
     color:rgb(245, 7, 126) ;
 }
-
 .editBtn{
     color: purple;
 }
